@@ -33,7 +33,7 @@ _RO-Crate Metadata File_: A JSON-LD file stored as `ro-crate-metadata.json` in t
 
 _RO-Crate Website_: Human-readable HTML pages which describe the RO-Crate (i.e. the _Root Data Entity_, its _Data Entities_ and _Context Entities_), with a home-page at `ro-crate-preview.html` (any additional files reside in `ro-crate-preview_files/`)
 
-_Entity_: An identified object, which have a given _type_ and may be described using a set of _properties_.
+_Entity_: An identified object, which has a given _type_ and may be described using a set of _properties_.
 
 _Type_: A classification of objects or their descriptions. The type (or _class_) is identified by a _URI_, mapped to a _key_ by _JSON-LD_.
 
