@@ -29,7 +29,7 @@ This document specifies a method, known as _RO-Crate_ (Research Object Crate), o
 
 RO-Crate uses JSON-LD to express this metadata using linked data, describing data resources as well as contextual entities such as people, organizations, software and equipment as a series of linked JSON-LD objects - using common published vocabularies, chiefly schema.org. 
 
-The core of RO-Crate is a JSON-LD file, the _RO-Crate Metadata File_, named `ro-crate-metadata.json`. This file contains structured metadata about the dataset as a whole (the _Root Data Entity_) and, optionally, about some or all of its files. This provides a simple way to, for example, assert the authors (e.g. people, organizations) of the RO-Crate or one its files, or to capture more complex provenance for files, such as how they were created using software and equipment. 
+The core of RO-Crate is a JSON-LD file, the _RO-Crate Metadata File_, named `ro-crate-metadata.json`. This file contains structured metadata about the dataset as a whole (the _Root Data Entity_) and, optionally, about some or all of its files. This provides a simple way to, for example, assert the authors (e.g. people, organizations) of the RO-Crate or one of its files, or to capture more complex provenance for files, such as how they were created using software and equipment. 
 
 While providing the formal specification for RO-Crate, this document also aims to be a practical guide for software authors to create tools for generating and consuming research data packages, with explanation by examples. 
 
